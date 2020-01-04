@@ -492,6 +492,7 @@ public class CoreUtils {
 
 			}
 
+//			Attribute.
 			if (item.isSet(name + ".Attributes.Helmet.MovementSpeed")) {
 
 				AttributeModifier am = new AttributeModifier(UUID.randomUUID(), "Helmet Movement Speed",

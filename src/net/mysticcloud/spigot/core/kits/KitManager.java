@@ -122,8 +122,6 @@ public class KitManager {
 			e.printStackTrace();
 		}
 
-		Bukkit.getConsoleSender()
-				.sendMessage(CoreUtils.colorize("&e&lCustomCraftingTables &f>&7 Created Demo recipe."));
 		
 		registerKits();
 

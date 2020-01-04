@@ -55,7 +55,7 @@ public class PlayerListener implements Listener {
 				}
 			}
 			e.getWhoClicked().closeInventory();
-			e.getWhoClicked().removeMetadata("petinv", Main.getPlugin());
+			e.getWhoClicked().removeMetadata("kitinv", Main.getPlugin());
 		}
 		if(e.getInventory().getHolder() == null) {
 			
